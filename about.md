@@ -8,9 +8,7 @@ permalink: /about/
     <img src="/assets/images/white_memoji.png" width=400><br>
 </div>
 
-```go
-package main
-
+{% highlight go %}
 type Me struct{
   Intro  string
   School string
@@ -27,7 +25,7 @@ func main(){
   }
   _ = me
 }
-```
+{% endhighlight %}
 
 ## 🛠️ Skills
 

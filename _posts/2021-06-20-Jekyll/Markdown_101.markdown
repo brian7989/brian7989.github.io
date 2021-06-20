@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Jekyll/Markdown 101"
+date:   "2021-06-20 19:56:30"
+categories: Markdown
+tags: featured
+image: /assets/article_images/post_cover.jpeg
+---
+
+# Blockquotes
+>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+
+# Lists
+## orderd lists
+1. one
+2. two
+3. three
+
+## unorderd lists
+- Apple
+- Banana
+- Plum
+
+# Links
+This is an [example link](http://example.com/ "With a Title").
+
+# Combinations
+> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+>
+> - Apple
+> - Banana
+> - Plum
+
+# Code Highlighting
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
