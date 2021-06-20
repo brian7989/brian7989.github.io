@@ -1,17 +1,79 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+<div align="center">
+    <img src="/assets/images/white_memoji.png" width=400><br>
+</div>
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+```go
+package main
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+type Me struct{
+  Intro  string
+  School string
+  Major  string
+  Minor  string
+}
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+func main(){
+  me := &Me{
+    Intro: "Born in 🇰🇷 raised in 🇨🇦 studied in 🇨🇳 currently in 🇺🇸",
+    School:"Georgia Institute of Technology 🐝",
+    Major: "Computer Science 💻",
+    Minor: "Chinese 🇨🇳"
+  }
+  _ = me
+}
+```
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+## 🛠️ Skills
+
+### 👾 Languages
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/>
+<img src="https://img.shields.io/badge/Go-22a6b3?style=flat-square&logo=Go&logoColor=white"/>
+<img src="https://img.shields.io/badge/JS-cc8e35?style=flat-square&logo=Javascript&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-227093?style=flat-square&logo=Typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Swift-706fd3?style=flat-square&logo=Swift&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-54a0ff?style=flat-square&logo=C&logoColor=white"/>
+</p>
+
+### 🎨 Frontend
+
+<p>
+<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=Tailwind-CSS&logoColor=white"/>
+<img src="https://img.shields.io/badge/ReactJS-3c6382?style=flat-square&logo=React&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue-dot-js&logoColor=white"/>
+</p>
+
+### 🗄 Backend
+
+<p>
+<img src="https://img.shields.io/badge/Flask-218c74?style=flat-square&logo=Flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS-fa983a?style=flat-square&logo=Amazon-AWS&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node-dot-js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=Heroku&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-227093?style=flat-square&logo=PostgreSQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-808e9b?style=flat-square&logo=MySQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/GraphQL-E434AA?style=flat-square&logo=GraphQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apollo-311C87?style=flat-square&logo=Apollo-GraphQL&logoColor=white"/>
+</p>
+
+### 📱 Mobile
+
+<p>
+<img src="https://img.shields.io/badge/React Native-3c6382?style=flat-square&logo=React&logoColor=white"/>
+<img src="https://img.shields.io/badge/Swift-706fd3?style=flat-square&logo=Swift&logoColor=white"/>
+</p>
+
+### 🧠 Machine Learning
+
+    // To Be Updated ...
