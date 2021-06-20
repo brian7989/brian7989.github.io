@@ -3,7 +3,7 @@ layout: post
 title:  "Jekyll/Markdown 101"
 date:   "2021-06-20 19:56:30"
 categories: Markdown
-tags: featured
+# tags: featured
 image: /assets/article_images/post_cover.jpeg
 ---
 

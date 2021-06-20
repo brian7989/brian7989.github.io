@@ -1,0 +1,20 @@
+<div>
+    <p class="myAns">Type in your question and hit "Ask</p>
+    <input class="myQuestion" type="text" name="q">
+    <button onclick="button_click()"> Ask </button>
+</div>
+<script>
+    async function fetchData (input) {
+        const res = await fetch(`https://dftest-brianlee.herokuapp.com/?q=${input}`);
+        // const res = await fetch(`http://localhost:3000/?q=${input}`)
+        const {resp} = await res.json()
+        return resp
+    }
+    function button_click() {
+        const input = document.getElementsByClassName('myQuestion')[0].value
+        const answer = document.getElementsByClassName('myAns')[0]
+        fetchData(input).then((res) => {
+            answer.innerHTML = res
+        })
+    }
+</script>
